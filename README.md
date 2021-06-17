@@ -11,7 +11,7 @@
  2. Enter the amount of pins hit per throw for each frame.
  3. Submit each frame, one at a time
  4. If 10 frames were not played, click "Submit Score Now" to view your scoreboard.
- 5. After 10th frame submission, your scoreboard will display.
+ 5. If 10 frames were played, your scoreboard will display after the final frame submission.
 
 
  Notes:
