@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bowling-score-calculator-final/static/css/main.0d798186.chunk.css",
+    "main.js": "/bowling-score-calculator-final/static/js/main.f4dd970f.chunk.js",
+    "main.js.map": "/bowling-score-calculator-final/static/js/main.f4dd970f.chunk.js.map",
+    "runtime-main.js": "/bowling-score-calculator-final/static/js/runtime-main.df1fcdd4.js",
+    "runtime-main.js.map": "/bowling-score-calculator-final/static/js/runtime-main.df1fcdd4.js.map",
+    "static/js/2.a7509632.chunk.js": "/bowling-score-calculator-final/static/js/2.a7509632.chunk.js",
+    "static/js/2.a7509632.chunk.js.map": "/bowling-score-calculator-final/static/js/2.a7509632.chunk.js.map",
+    "index.html": "/bowling-score-calculator-final/index.html",
+    "static/css/main.0d798186.chunk.css.map": "/bowling-score-calculator-final/static/css/main.0d798186.chunk.css.map",
+    "static/js/2.a7509632.chunk.js.LICENSE.txt": "/bowling-score-calculator-final/static/js/2.a7509632.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df1fcdd4.js",
+    "static/js/2.a7509632.chunk.js",
+    "static/css/main.0d798186.chunk.css",
+    "static/js/main.f4dd970f.chunk.js"
+  ]
+}
