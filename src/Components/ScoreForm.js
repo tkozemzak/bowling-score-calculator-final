@@ -35,7 +35,7 @@ const ScoreForm = ({ currentFrame, handleFrameEntry, setFinishedGame }) => {
       handleFrameEntry(formScoreObj);
       setThrow1("");
       setThrow2("");
-
+      setScoreSum(0);
       return true;
     }
   };
