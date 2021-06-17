@@ -1,4 +1,4 @@
- Live demo URL: http://XYZ
+ Live demo URL: https://tkozemzak.github.io/bowling-score-calculator-final/
 
  Run app locally:
  1. Clone github repo

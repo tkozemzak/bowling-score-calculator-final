@@ -22,17 +22,11 @@ const TenthFrame = ({ scoresToSendToScoreboard, finalScore }) => {
 
   if (firstThrow.type === "strike") {
     box1Value = "X";
-  } else if (firstThrow.type === "spare") {
-    box1Value = firstThrow.throw1;
-    box2Value = "/";
-  } else if (firstThrow.type === "open") {
-    box1Value = firstThrow.throw1;
-    box2Value = firstThrow.throw2 || "-";
-  }
-
-  if (secondThrow) {
     if (secondThrow.type === "strike") {
       box2Value = "X";
+      if (thirdThrow.type === "strike") {
+        box3Value = "X";
+      }
     } else if (secondThrow.type === "spare") {
       box2Value = secondThrow.throw1;
       box3Value = "/";
@@ -40,14 +34,19 @@ const TenthFrame = ({ scoresToSendToScoreboard, finalScore }) => {
       box2Value = secondThrow.throw1 || "-";
       box3Value = secondThrow.throw2 || "-";
     }
-  }
-
-  if (thirdThrow !== undefined) {
-    if (thirdThrow.type === "strike") {
+  } else if (firstThrow.type === "spare") {
+    box1Value = firstThrow.throw1;
+    box2Value = "/";
+    if (secondThrow !== undefined && secondThrow.type === "strike") {
       box3Value = "X";
-    } else {
-      box3Value = thirdThrow.throw1 || "-";
     }
+    if (secondThrow !== undefined && secondThrow.type === "open") {
+      box3Value = secondThrow.throw1;
+    }
+  } else if (firstThrow.type === "open") {
+    box1Value = firstThrow.throw1;
+    box2Value = firstThrow.throw2 || "-";
+    box3Value = "-";
   }
 
   return (
