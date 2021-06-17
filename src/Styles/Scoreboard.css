@@ -1,0 +1,38 @@
+.scoreboard-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+}
+
+.name {
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.total-score {
+  border: 2px solid black;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-game-button {
+  margin-top: 30px;
+  width: 100px;
+  align-self: center;
+}

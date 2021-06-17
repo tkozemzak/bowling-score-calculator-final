@@ -1,0 +1,19 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.score-input {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.submit-button {
+  margin-top: 25px;
+  color: green;
+}
+
+.final-submit-button {
+  margin-top: 25px;
+  color: red;
+}

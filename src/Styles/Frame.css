@@ -1,0 +1,22 @@
+.frame {
+  border: 2px solid black;
+  width: 100px;
+}
+
+.score-boxes {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.throw-box {
+  border: 2px solid black;
+  width: 50%;
+  height: 25px;
+}
+
+.frame-total-score-box {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}

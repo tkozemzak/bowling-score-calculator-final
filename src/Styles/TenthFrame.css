@@ -1,0 +1,23 @@
+.tenth-frame {
+  border: 2px solid black;
+  width: auto;
+}
+
+.score-boxes {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.tenth-frame-throw-box {
+  border: 2px solid black;
+  width: 33%;
+  height: 25px;
+  padding: 0 10px 0 8px;
+}
+
+.frame-total-score-box {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
