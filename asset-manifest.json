@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bowling-score-calculator-final/static/css/main.0d798186.chunk.css",
-    "main.js": "/bowling-score-calculator-final/static/js/main.d5d4f31e.chunk.js",
-    "main.js.map": "/bowling-score-calculator-final/static/js/main.d5d4f31e.chunk.js.map",
+    "main.js": "/bowling-score-calculator-final/static/js/main.566280fe.chunk.js",
+    "main.js.map": "/bowling-score-calculator-final/static/js/main.566280fe.chunk.js.map",
     "runtime-main.js": "/bowling-score-calculator-final/static/js/runtime-main.df1fcdd4.js",
     "runtime-main.js.map": "/bowling-score-calculator-final/static/js/runtime-main.df1fcdd4.js.map",
     "static/js/2.a7509632.chunk.js": "/bowling-score-calculator-final/static/js/2.a7509632.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.df1fcdd4.js",
     "static/js/2.a7509632.chunk.js",
     "static/css/main.0d798186.chunk.css",
-    "static/js/main.d5d4f31e.chunk.js"
+    "static/js/main.566280fe.chunk.js"
   ]
 }
