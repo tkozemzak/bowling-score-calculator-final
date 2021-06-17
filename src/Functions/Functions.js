@@ -32,25 +32,17 @@ const separateTenthFrameScores = (scores) => {
  */
 
 const condenseTenthFrame = (scores) => {
-  //check length of scores array
   if (scores.length > 9) {
-    //check if 10th is not a strike
     if (scores[9].throw1 !== 10) {
-      //combine 11th frame into 10th frame
       scores[9].throw2 = scores[10].throw1;
       scores[9].scoreSum = scores[9].throw1 + scores[10].throw1;
 
-      //remove defunct 11th frame
       scores.splice(10, 1);
-    }
-    //check if 11th is not a strike
-    else if (scores[10].throw1 !== 10) {
+    } else if (scores[10].throw1 !== 10) {
       if (scores[11]) {
-        //combine 12th frame into 11th frame
         scores[10].throw2 = scores[11].throw1;
         scores[10].scoreSum = scores[10].throw1 + scores[11].throw1;
 
-        //remove defunct 11th frame
         scores.splice(11, 1);
       }
     }
@@ -66,11 +58,8 @@ const condenseTenthFrame = (scores) => {
 const formatScoreObj = (scores) => {
   let formattedScores = [];
 
-  //loop over scores object
   for (let i = 0; i < scores.length; i++) {
-    //check if score for the frame = 10
     if (scores[i].throw1 + scores[i].throw2 === 10) {
-      //determine whether the frame is a strike or spare. create a new object and add to formattedScores array
       if (scores[i].throw1 === 10) {
         formattedScores.push({
           type: "strike",
@@ -91,7 +80,6 @@ const formatScoreObj = (scores) => {
         });
       }
     }
-    //default case to create a new object for the frame and keep total score if the frame is neither a strike nor a spare
     if (scores[i].throw1 + scores[i].throw2 !== 10) {
       let frameScore = scores[i].throw1 + scores[i].throw2;
       formattedScores.push({
